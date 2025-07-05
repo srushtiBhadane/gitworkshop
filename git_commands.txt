@@ -7,3 +7,36 @@ git commit -m "message"	Commit staged changes with a message
 git log	Show commit history
 git diff	Show file differences not yet staged
 git diff --staged	Show staged file differences
+
+
+
+###GIT WORKSHOP
+
+#to initailize git we can use ::: git init
+
+::there are simply 3 type of files
+  1//untracked files ---not recognized by git
+  2//staged files ------this comes after  untracked files 
+  3//Tracked files ------we can teack basically after taking those into git
+
+###to untrack files ---- to stage file 
+below are command
+---git add filename  and we can aslo write :: git add .
+
+
+###to staged files ---- to track file 
+-----git commit -m filename
+
+##to unstaged file
+-----git --rm chached
+
+###to restore 
+---git restore---to restore delete file
+
+
+
+###PAT:Personal acess token 
+###to push code ::git push origin
+
+
+####to copy anyones repo to my repo we can use "Fork"
